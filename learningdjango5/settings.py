@@ -26,8 +26,9 @@ SECRET_KEY = 'django-insecure-ooe&22-=&clk($2_2+5+vduloo&i2%afraffk+wh6mq11i8!y1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://studybuds-f5na.onrender.com"]
 
+CSRF_TRUSTED_ORIGINS = ["https://studybuds-f5na.onrender.com"]
 
 # Application definition
 
